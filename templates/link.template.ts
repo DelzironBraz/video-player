@@ -6,4 +6,8 @@ export const SimpleLink = styled(Link)`
   justify-content: flex-start;
   align-items: center;
   gap: 0.5rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `;

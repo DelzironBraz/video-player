@@ -88,8 +88,14 @@ const Navigation = () => {
             <Button
               type="text"
               shape="circle"
-              className="bg-[#757575]"
-              icon={<User size={20} weight="fill" className="!text-black" />}
+              className="bg-[#757575] hover:!bg-[#757575]"
+              icon={
+                <User
+                  size={20}
+                  weight="fill"
+                  className="!text-black hover:!text-white"
+                />
+              }
             />
           </Tooltip>
         </div>
