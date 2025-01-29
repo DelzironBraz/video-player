@@ -12,9 +12,9 @@ import {
   X,
 } from "@phosphor-icons/react";
 import { Button, Dropdown, Tooltip } from "antd";
-import { useState } from "react";
+import React, { useState } from "react";
 
-const Navigation = () => {
+const Navigation: React.FC = () => {
   const [isMenuVisible, setIsMenuVisible] = useState<boolean>(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
