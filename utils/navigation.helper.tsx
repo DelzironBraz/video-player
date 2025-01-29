@@ -14,37 +14,37 @@ export const categories: MenuProps["items"] = [
   {
     key: "1",
     label: <Link href="#">Em Alta</Link>,
-    icon: <Fire size={32} />,
+    icon: <Fire size={20} />,
   },
   {
     key: "2",
     label: <Link href="#">Shopping</Link>,
-    icon: <Storefront size={32} />,
+    icon: <Storefront size={20} />,
   },
   {
     key: "3",
     label: <Link href="#">Música</Link>,
-    icon: <Equalizer size={32} />,
+    icon: <Equalizer size={20} />,
   },
   {
     key: "4",
     label: <Link href="#">Filmes</Link>,
-    icon: <FilmSlate size={32} />,
+    icon: <FilmSlate size={20} />,
   },
   {
     key: "5",
     label: <Link href="#">Ao vivo</Link>,
-    icon: <Record size={32} />,
+    icon: <Record size={20} />,
   },
   {
     key: "6",
     label: <Link href="#">Jogos</Link>,
-    icon: <GameController size={32} />,
+    icon: <GameController size={20} />,
   },
   {
     key: "7",
     label: <Link href="#">Notícias</Link>,
-    icon: <NewspaperClipping size={32} />,
+    icon: <NewspaperClipping size={20} />,
   },
 ];
 

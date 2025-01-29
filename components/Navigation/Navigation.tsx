@@ -12,18 +12,34 @@ import {
   X,
 } from "@phosphor-icons/react";
 import { Button, Dropdown, Tooltip } from "antd";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const Navigation: React.FC = () => {
   const [isMenuVisible, setIsMenuVisible] = useState<boolean>(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [isScrolled, setIsScrolled] = useState<boolean>(false);
 
-  const toggleDropdown = (dropdownKey: string) => {
-    setOpenDropdown(openDropdown === dropdownKey ? null : dropdownKey);
-  };
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <Header>
+    <Header
+      className={`transition-all duration-300 ${
+        isScrolled ? "bg-[#131313]" : "bg-transparent"
+      }`}
+    >
       {/* Desktop Navigation */}
       <div className="max-w-[1366px] hidden lg:flex justify-between items-center gap-4 w-full mx-auto">
         <SimpleLink href="/">
@@ -142,13 +158,13 @@ const Navigation: React.FC = () => {
       <nav
         className={`${
           isMenuVisible ? "block" : "hidden"
-        } w-full h-screen bg-[#0a0a0a] text-white absolute top-full left-0 z-40`}
+        } w-full h-screen bg-[#0a0a0a] text-white absolute top-[60px] left-0 z-40`}
       >
         <ul className="flex flex-col gap-4 p-4">
           <li>
             <button
               className="flex items-center justify-between w-full"
-              onClick={() => toggleDropdown("categories")}
+              onClick={() => setOpenDropdown("categories")}
             >
               Categorias <CaretDown size={20} />
             </button>
@@ -169,7 +185,7 @@ const Navigation: React.FC = () => {
           <li>
             <button
               className="flex items-center justify-between w-full"
-              onClick={() => toggleDropdown("topics")}
+              onClick={() => setOpenDropdown("topics")}
             >
               Assuntos <CaretDown size={20} />
             </button>
@@ -190,7 +206,7 @@ const Navigation: React.FC = () => {
           <li>
             <button
               className="flex items-center justify-between w-full"
-              onClick={() => toggleDropdown("otherPages")}
+              onClick={() => setOpenDropdown("otherPages")}
             >
               Outras Páginas <CaretDown size={20} />
             </button>

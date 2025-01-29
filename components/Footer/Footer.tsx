@@ -8,14 +8,14 @@ import React from "react";
 const Footer: React.FC = () => {
   return (
     <SimpleFooter>
-      <SimpleContainer className="max-w-[1366px] mx-auto w-full">
+      <SimpleContainer className="max-w-[1366px] mx-auto w-full !flex-col lg:!flex-row">
         <SimpleContainer $justifyContent="flex-start">
           <span className="text-[#969595] text-sm">© Flow 2023</span>
           <SimpleLink href="privacy-policy">
             <span className="text-sm text-white">Política de Privacidade</span>
           </SimpleLink>
           <SimpleLink href="privacy-policy">
-            <span className="text-sm text-white">Política de Privacidade</span>
+            <span className="text-sm text-white">Termos de Uso</span>
           </SimpleLink>
         </SimpleContainer>
 
