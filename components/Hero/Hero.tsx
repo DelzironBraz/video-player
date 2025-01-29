@@ -17,7 +17,7 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ videos }) => {
   return (
-    <section className="w-full h-full relative mb-[215px]">
+    <section className="w-full h-full relative mb-[110px]">
       <Swiper
         cssMode={true}
         loop={true}
@@ -35,7 +35,7 @@ const Hero: React.FC<HeroProps> = ({ videos }) => {
         ))}
       </Swiper>
 
-      <div className="absolute z-40 w-full -bottom-[245px]">
+      <div className="absolute z-40 w-full -bottom-[160px]">
         <VideoCarousel videos={videos} category="Continuar reprodução" />
       </div>
     </section>
