@@ -7,11 +7,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper as SwiperType } from "swiper";
-import CardPlayer from "../CardPlayer/CardPlayer";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SimpleContainer } from "@/templates/container.template";
 import { CaretLeft, CaretRight } from "@phosphor-icons/react";
 import { SimpleLink } from "@/templates/link.template";
+import VideoCard from "../VideoCard/VideoCard";
 
 interface VideoCarouselProps {
   category: string;
@@ -46,7 +46,12 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({
       }`}
     >
       <SimpleContainer>
-        <h3 className="text-lg font-semibold">{category}</h3>
+        <SimpleContainer>
+          <h3 className="text-lg font-semibold">{category} </h3>
+          {category === "Live" && (
+            <span className="bg-red-500 rounded-full flex w-2 h-2"></span>
+          )}
+        </SimpleContainer>
 
         {videos.length > 4 && (
           <SimpleContainer>
@@ -106,7 +111,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({
       >
         {videos.map((video) => (
           <SwiperSlide key={video.id} className="!relative">
-            <CardPlayer
+            <VideoCard
               thumbnail={video.thumbnail}
               title={video.title}
               subTitle={video.subTitle}
