@@ -2,83 +2,163 @@
   "videos": [
     {
       "id": "1",
-      "thumbnail": "https://example.com/thumbnails/universo.jpg",
-      "video": "https://example.com/videos/universo.mp4",
-      "title": "Explorando o Universo",
-      "subTitle": "Uma jornada pelo cosmos",
-      "description": "Este documentário mergulha nos mistérios do universo, explorando galáxias, buracos negros e as incríveis descobertas da astronomia moderna."
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Live",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "Lançamento Espacial ao Vivo",
+      "subTitle": "Acompanhe o lançamento em tempo real",
+      "description": "Transmissão ao vivo de um lançamento espacial histórico.",
+      "status": "live"
     },
     {
       "id": "2",
-      "thumbnail": "https://example.com/thumbnails/culinaria-italiana.jpg",
-      "video": "https://example.com/videos/culinaria-italiana.mp4",
-      "title": "Culinária Italiana",
-      "subTitle": "Receitas tradicionais e modernas",
-      "description": "Aprenda a preparar pratos clássicos da culinária italiana, como lasanha, risoto e tiramisu, com dicas de chefs renomados."
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Live",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "Conferência de Tecnologia",
+      "subTitle": "Inovações que moldam o futuro",
+      "description": "Evento ao vivo discutindo as tendências tecnológicas.",
+      "status": "soon"
     },
     {
       "id": "3",
-      "thumbnail": "https://example.com/thumbnails/games.jpg",
-      "video": "https://example.com/videos/games.mp4",
-      "title": "O Mundo dos Games",
-      "subTitle": "História e evolução dos jogos",
-      "description": "Uma viagem pela história dos videogames, desde os primeiros consoles até as tecnologias mais recentes de realidade virtual."
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Live",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "Show de Música ao Vivo",
+      "subTitle": "Artistas renomados no palco",
+      "description": "Transmissão ao vivo de um grande festival musical.",
+      "status": "live"
     },
     {
       "id": "4",
-      "thumbnail": "https://example.com/thumbnails/vida-selvagem.jpg",
-      "video": "https://example.com/videos/vida-selvagem.mp4",
-      "title": "Vida Selvagem na África",
-      "subTitle": "Aventuras no reino animal",
-      "description": "Explore a vida selvagem na savana africana, conhecendo os hábitos e curiosidades de leões, elefantes, girafas e muito mais."
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Ciência",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "Explorando o Universo",
+      "subTitle": "Uma jornada pelo cosmos",
+      "description": "Este documentário mergulha nos mistérios do universo.",
+      "status": "default"
     },
     {
       "id": "5",
-      "thumbnail": "https://example.com/thumbnails/ciencia-futuro.jpg",
-      "video": "https://example.com/videos/ciencia-futuro.mp4",
-      "title": "A Ciência do Futuro",
-      "subTitle": "Inovações que estão transformando o mundo",
-      "description": "Descubra como a inteligência artificial, biotecnologia e outras inovações estão moldando o futuro da humanidade."
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Ciência",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "A Física dos Buracos Negros",
+      "subTitle": "Teorias e descobertas fascinantes",
+      "description": "Como os buracos negros funcionam e o que podemos aprender com eles?",
+      "status": "default"
     },
     {
       "id": "6",
-      "thumbnail": "https://example.com/thumbnails/meditacao.jpg",
-      "video": "https://example.com/videos/meditacao.mp4",
-      "title": "Técnicas de Meditação",
-      "subTitle": "Encontre paz e equilíbrio interior",
-      "description": "Este guia prático ensina técnicas de meditação para iniciantes e experientes, ajudando a reduzir o estresse e melhorar o foco."
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Ciência",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "Evolução da Vida na Terra",
+      "subTitle": "Como surgimos?",
+      "description": "Uma análise detalhada da evolução das espécies.",
+      "status": "default"
     },
     {
       "id": "7",
-      "thumbnail": "https://example.com/thumbnails/civilizacoes.jpg",
-      "video": "https://example.com/videos/civilizacoes.mp4",
-      "title": "História das Civilizações",
-      "subTitle": "Do antigo Egito à era moderna",
-      "description": "Uma análise das principais civilizações da história, destacando suas conquistas e impactos na sociedade atual."
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Ciência",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "Neurociência e o Cérebro Humano",
+      "subTitle": "Os mistérios da mente",
+      "description": "Descubra como nosso cérebro processa informações e emoções.",
+      "status": "playlist"
     },
     {
       "id": "8",
-      "thumbnail": "https://example.com/thumbnails/esportes-radicais.jpg",
-      "video": "https://example.com/videos/esportes-radicais.mp4",
-      "title": "Esportes Radicais",
-      "subTitle": "Adrenalina em alta",
-      "description": "Acompanhe praticantes de esportes radicais em aventuras de tirar o fôlego, como paraquedismo, escalada e surf."
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Ciência",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "Energias Renováveis",
+      "subTitle": "O futuro da energia sustentável",
+      "description": "Como a ciência está revolucionando o setor energético.",
+      "status": "default"
     },
     {
       "id": "9",
-      "thumbnail": "https://example.com/thumbnails/fotografia.jpg",
-      "video": "https://example.com/videos/fotografia.mp4",
-      "title": "Fotografia Criativa",
-      "subTitle": "Dicas para capturar momentos incríveis",
-      "description": "Aprimore suas habilidades fotográficas com técnicas criativas e inspirações de fotógrafos renomados."
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Ciência",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "Robótica Avançada",
+      "subTitle": "Máquinas que aprendem",
+      "description": "Explorando os avanços da robótica moderna.",
+      "status": "playlist"
     },
     {
       "id": "10",
-      "thumbnail": "https://example.com/thumbnails/sustentabilidade.jpg",
-      "video": "https://example.com/videos/sustentabilidade.mp4",
-      "title": "Sustentabilidade e Meio Ambiente",
-      "subTitle": "Cuidando do planeta para as futuras gerações",
-      "description": "Um olhar sobre iniciativas de sustentabilidade e como cada um de nós pode contribuir para proteger o meio ambiente."
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Tecnologia",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "Inteligência Artificial",
+      "subTitle": "O impacto da IA na sociedade",
+      "description": "Como a inteligência artificial está mudando o mundo.",
+      "status": "default"
+    },
+    {
+      "id": "11",
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Tecnologia",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "Blockchain e Criptomoedas",
+      "subTitle": "O futuro das finanças digitais",
+      "description": "Entenda como funciona a tecnologia por trás do Bitcoin.",
+      "status": "default"
+    },
+    {
+      "id": "12",
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Tecnologia",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "Redes 5G",
+      "subTitle": "O avanço da conectividade móvel",
+      "description": "Como o 5G está transformando a internet.",
+      "status": "default"
+    },
+    {
+      "id": "13",
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Arte",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "História da Pintura",
+      "subTitle": "Dos clássicos aos modernos",
+      "description": "Um passeio pela história da arte pictórica.",
+      "status": "default"
+    },
+    {
+      "id": "14",
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Arte",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "A Arte da Escultura",
+      "subTitle": "Criando formas com materiais diversos",
+      "description": "Explorando esculturas famosas e suas técnicas.",
+      "status": "default"
+    },
+    {
+      "id": "15",
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Arte",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "Música Clássica",
+      "subTitle": "Os grandes compositores",
+      "description": "Uma análise das obras de Mozart, Beethoven e outros gênios.",
+      "status": "music"
+    },
+    {
+      "id": "16",
+      "thumbnail": "/images/thumbnail/thumbnail-example.jpg",
+      "category": "Arte",
+      "video": "https://www.youtube.com/watch?v=xWkozeculPo&ab_channel=BeyondFireship",
+      "title": "Fotografia Criativa",
+      "subTitle": "Dicas para capturar momentos incríveis",
+      "description": "Técnicas para melhorar suas fotografias.",
+      "status": "playlist"
     }
   ]
 }
