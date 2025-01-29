@@ -1,0 +1,23 @@
+.swiper-pagination {
+  width: fit-content !important;
+  top: 225px !important;
+  padding: 0 1rem !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #c4c6ca !important;
+}
+
+.custom-carousel {
+  background: rgb(94, 94, 94);
+  background: linear-gradient(
+    180deg,
+    rgba(94, 94, 94, 1) 0%,
+    rgba(55, 55, 55, 1) 35%,
+    rgba(10, 10, 10, 1) 100%
+  );
+}
