@@ -1,0 +1,84 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "thumbnail": "https://example.com/thumbnails/universo.jpg",
+      "video": "https://example.com/videos/universo.mp4",
+      "title": "Explorando o Universo",
+      "subTitle": "Uma jornada pelo cosmos",
+      "description": "Este documentário mergulha nos mistérios do universo, explorando galáxias, buracos negros e as incríveis descobertas da astronomia moderna."
+    },
+    {
+      "id": "2",
+      "thumbnail": "https://example.com/thumbnails/culinaria-italiana.jpg",
+      "video": "https://example.com/videos/culinaria-italiana.mp4",
+      "title": "Culinária Italiana",
+      "subTitle": "Receitas tradicionais e modernas",
+      "description": "Aprenda a preparar pratos clássicos da culinária italiana, como lasanha, risoto e tiramisu, com dicas de chefs renomados."
+    },
+    {
+      "id": "3",
+      "thumbnail": "https://example.com/thumbnails/games.jpg",
+      "video": "https://example.com/videos/games.mp4",
+      "title": "O Mundo dos Games",
+      "subTitle": "História e evolução dos jogos",
+      "description": "Uma viagem pela história dos videogames, desde os primeiros consoles até as tecnologias mais recentes de realidade virtual."
+    },
+    {
+      "id": "4",
+      "thumbnail": "https://example.com/thumbnails/vida-selvagem.jpg",
+      "video": "https://example.com/videos/vida-selvagem.mp4",
+      "title": "Vida Selvagem na África",
+      "subTitle": "Aventuras no reino animal",
+      "description": "Explore a vida selvagem na savana africana, conhecendo os hábitos e curiosidades de leões, elefantes, girafas e muito mais."
+    },
+    {
+      "id": "5",
+      "thumbnail": "https://example.com/thumbnails/ciencia-futuro.jpg",
+      "video": "https://example.com/videos/ciencia-futuro.mp4",
+      "title": "A Ciência do Futuro",
+      "subTitle": "Inovações que estão transformando o mundo",
+      "description": "Descubra como a inteligência artificial, biotecnologia e outras inovações estão moldando o futuro da humanidade."
+    },
+    {
+      "id": "6",
+      "thumbnail": "https://example.com/thumbnails/meditacao.jpg",
+      "video": "https://example.com/videos/meditacao.mp4",
+      "title": "Técnicas de Meditação",
+      "subTitle": "Encontre paz e equilíbrio interior",
+      "description": "Este guia prático ensina técnicas de meditação para iniciantes e experientes, ajudando a reduzir o estresse e melhorar o foco."
+    },
+    {
+      "id": "7",
+      "thumbnail": "https://example.com/thumbnails/civilizacoes.jpg",
+      "video": "https://example.com/videos/civilizacoes.mp4",
+      "title": "História das Civilizações",
+      "subTitle": "Do antigo Egito à era moderna",
+      "description": "Uma análise das principais civilizações da história, destacando suas conquistas e impactos na sociedade atual."
+    },
+    {
+      "id": "8",
+      "thumbnail": "https://example.com/thumbnails/esportes-radicais.jpg",
+      "video": "https://example.com/videos/esportes-radicais.mp4",
+      "title": "Esportes Radicais",
+      "subTitle": "Adrenalina em alta",
+      "description": "Acompanhe praticantes de esportes radicais em aventuras de tirar o fôlego, como paraquedismo, escalada e surf."
+    },
+    {
+      "id": "9",
+      "thumbnail": "https://example.com/thumbnails/fotografia.jpg",
+      "video": "https://example.com/videos/fotografia.mp4",
+      "title": "Fotografia Criativa",
+      "subTitle": "Dicas para capturar momentos incríveis",
+      "description": "Aprimore suas habilidades fotográficas com técnicas criativas e inspirações de fotógrafos renomados."
+    },
+    {
+      "id": "10",
+      "thumbnail": "https://example.com/thumbnails/sustentabilidade.jpg",
+      "video": "https://example.com/videos/sustentabilidade.mp4",
+      "title": "Sustentabilidade e Meio Ambiente",
+      "subTitle": "Cuidando do planeta para as futuras gerações",
+      "description": "Um olhar sobre iniciativas de sustentabilidade e como cada um de nós pode contribuir para proteger o meio ambiente."
+    }
+  ]
+}
